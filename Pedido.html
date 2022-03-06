@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=" width=device-width, initial-scale=1.0">
+    <title>Pedido</title>
+</head>
+<body>
+    <img src="./assets/img/Diseño sin título.png" alt="logo pasteleria" width=200px>
+    <h1>Pasteles galacticos</h1>
+    <p>Hola usuario, realiza tu pedido en esta sección<br><br><a href="./Home.html"><input type="button", value="Cerrar sesión"></a></p>
+    <br>
+    <hr>
+    <h2>Pasteles:</h2>
+    <p>Pasteles medianos</p>
+<!--sabores de los pasteles-->
+    <input type="checkbox" id="saborpastel" name="saborpastel" value="pfresa">
+        <label for="saborpastel">Pastel de fresa............................$280</label>
+    <br>
+    <input type="checkbox" id="saborpastel1" name="saborpastel1" value="pvainilla">
+        <label for="saborpastel1">Pastel de vainilla........................$230</label>
+    <br>
+    <input type="checkbox" id="saborpastel3" name="saborpastel3" value="pchocolate">
+        <label for="saborpastel3">Pastel de Chocolate....................$240</label>
+        <hr>
+
+    <!--Apartado de las galletas-->
+    <h2>Galletas</h2><p>(5 galletas)</p>
+    <br>
+    <!--Tipos de galletas-->
+    <input type="checkbox" id="galletas" name="galletas" value="gmantequilla">
+        <label for="galletas">Galletas de mantequilla......................$70</label>
+        <br>
+    <input type="checkbox" id="galletas1" name="galletas1" value="gchocolate">
+        <label for="galletas1">Galletas de chocolate.........................$85</label>
+        <br>
+    <input type="checkbox" id="galletas2" name="galletas2" value="gcchocolate">
+        <label for="galletas2">Galletas con chispas de chocolate......$80</label>
+        <br>
+    <input type="checkbox" id="galletas3" name="galletas3" value="integral">
+        <label for="galletas3">Galletas integrales..............................$90</label>
+        <br>
+    <input type="checkbox" id="galletas4" name="galletas4" value="jengibre">
+        <label for="galletas4">Galletas de jengibre............................$90</label>
+    <hr>
+<!--Apartado de las gelatinas-->
+    <h2>Gelatina</h2>
+    <p>Gelatina mediana</p>
+    <br>
+    <input type="checkbox" id="gelatina" name="gelatina" value="gfrutas">
+        <label for="gelatina">Gelatina de frutas..................$275</label><br>
+    <input type="checkbox" id="gelatina1" name="gelatina1" value="gyogurt">
+        <label for="gelatina1">Gelatina de yogurt.................$260</label><br>
+    <input type="checkbox" id="gelatina2" name="gelatina2" value="gquesocrema">
+        <label for="gelatina2">Gelatina de quesocrema........$275</label>
+    <br><br><hr>
+
+    <!--Apartado de los brownies-->
+    <h2>Brownies</h2>
+    <input type="radio" id="individual" name="tamaño" value="individual">
+        <label for="individual">Tamaño individua..................$55</label>
+    <br>
+    <input type="radio" id="pequeño" name="tamaño" value="pequeño">
+        <label for="pequeño">Tamaño pequeño...................$92</label>
+    <br>
+        <input type="radio" id="grande" name="tamaño" value="grande">
+        <label for="grande">Tamaño grande......................$148</label>
+    <br>
+    <hr>
+    <!--Apartado del pastel de queso-->
+    <h2>Pastel de queso</h2>
+        <input type="radio" id="pequeño" name="tamaño" value="pequeño">
+        <label for="pequeño">Tamaño pequeño...................$180</label>
+        <br>
+    <input type="radio" id="mediano" name="tamaño" value="mediano">
+        <label for="mediano">Tamaño mediano...................$230</label>
+        <br>
+    <input type="radio" id="grande" name="tamaño" value="grande">
+        <label for="grande">Tamaño grande......................$299</label>
+        <br>
+        <hr>
+<!--Apartado del pastel imposible-->
+    <h2>Pastel imposible</h2>
+    <input type="radio" id="pequeño" name="tamaño" value="pequeño">
+        <label for="pequeño">Tamaño pequeño...................$180</label>
+        <br>
+    <input type="radio" id="mediano" name="tamaño" value="mediano">
+        <label for="mediano">Tamaño mediano...................$230</label>
+        <br>
+    <input type="radio" id="grande" name="tamaño" value="grande">
+        <label for="grande">Tamaño grande......................$299</label>
+        <br>
+        <hr>
+<!--Apartado de las bebidas calientes-->
+    <h2>Bebidas calientes</h2>
+    <input type="checkbox" id="bebidascalintes" name="bebidascalintes" value="capuccino">
+        <label for="bebidascalintes">Capuchino..................$60</label>
+        <br>
+        <input type="checkbox" id="bebidascalintes1" name="bebidascalintes1" value="moka">
+            <label for="bebidascalintes1">Moka..........................$55</label>
+        <br>
+        <input type="checkbox" id="bebidascalintes2" name="bebidascalintes2" value="Chocolate">
+            <label for="bebidascalintes2">Chocolate...................$45</label>
+        <br>
+        <input type="checkbox" id="bebidascalintes3" name="bebidascalintes3" value="te">
+            <label for="bebidascalintes3">Té...............................$49</label>
+        <br>
+        <hr>
+<!--Apartado las bebidas frias-->
+    <h2>Bebidas frias</h2>
+    <input type="checkbox" id="bebidasfrias" name="bebidasfrias" value="smoothies">
+        <label for="bebidasfrias">Smoothies..................$60</label>
+        <br>
+    <input type="checkbox" id="bebidasfrias1" name="bebidasfrias1" value="leche">
+        <label for="bebidasfrias1">Leche.........................$40</label>
+        <br>
+    <input type="checkbox" id="bebidasfrias2" name="bebidasfrias2" value="chocolate">
+        <label for="bebidasfrias2">Chocolate...................$45</label>
+        <br>
+    <input type="checkbox" id="bebidasfrias3" name="bebidasfrias3" value="malteada">
+        <label for="bebidasfrias3">Malteada....................$55</label>
+        <br>
+    <input type="checkbox" id="bebidasfrias4" name="bebidasfrias4" value="frappe">
+        <label for="bebidasfrias4">Frappe........................$55</label>
+        <br>
+    <hr>
+<!--Apartado para realizar tu propio pastel-->
+    <h2>Tu propio pastel</h2>
+    <h3>Selecciona el tamaño</h3>
+    <input type="radio" id="individual" name="tamaño" value="individual">
+        <label for="individual">Tamaño individual</label>
+    <input type="radio" id="pequeño" name="tamaño" value="pequeño">
+        <label for="pequeño">Tamaño pequeño</label>
+    <input type="radio" id="mediano" name="tamaño" value="mediano">
+        <label for="mediano">Tamaño mediano</label>
+    <input type="radio" id="grande" name="tamaño" value="grande">
+        <label for="grande">Tamaño grande</label>
+    <h3>Selecciona el sabor</h3>
+        <input type="radio" id="saborpastelmake" name="saborpastelmake" value="fresa">
+            <label for="saborpastelmake">Fresa</label>
+        <input type="radio" id="saborpastelmake" name="saborpastelmake" value="chocolate">
+            <label for="saborpastelmake">Chocolate</label>
+        <input type="radio" id="saborpastelmake" name="saborpastelmake" value="vainilla">
+            <label for="saborpastelmake">Vainilla</label>
+            <br>
+        <input type="radio" id="saborpastelmake" name="saborpastelmake" value="almendra">
+            <label for="saborpastelmake">Almendra</label>
+        <input type="radio" id="saborpastelmake" name="saborpastelmake" value="nuez">
+            <label for="saborpastelmake">Núez</label>
+        <input type="radio" id="saborpastelmake" name="saborpastelmake" value="cajeta">
+            <label for="saborpastelmake">Cajeta</label>
+        <input type="radio" id="saborpastelmake" name="saborpastelmake" value="Manzana">
+            <label for="saborpastelmake">Manzána</label>
+    
+    <h3>Tipo de decoración</h3>
+
+    <input type="radio" id="decoracion" name="decoracion" value="flores">
+        <label for="decoraciones">Flores</label>
+    <br>
+    <input type="radio" id="decoracion" name="decoracion" value="cuadricula">
+        <label for="decoraciones">Cuadricula</label>
+    <br>
+    <input type="radio" id="decoracion" name="decoracion" value="Galletaquebrada">
+        <label for="decoraciones">Galleta</label>
+    <br>
+    <input type="radio" id="decoracion" name="decoracion" value="nombre">
+        <label for="decoraciones">Mensaje especial:</label> <input type="text" id="Input1" name="Input1">
+    <br><hr>
+
+
+
+<!--Poner un boton-->
+<h2>Realizar pedido:</h2>
+<a href="./Agradecimientos.html"><input type="button", value="Hacer pedido"></a>
+<input type="reset", value="Borrar pedido">
+
+
+<br><br><hr><br>
+
+<h2>Conocenos</h2>
+        <p>Estamos ubicados en calle constitucion #364 <br> colonia Lazaro Cardenas <br> 98040, Zacatecas. Zac</p>
+        <p>Número: xxxxxxxxxx <br> Twitter: @pastelesgalacticos <br> Instagram: Pastelesgalacticos       </p>
+</body>
+</html>
